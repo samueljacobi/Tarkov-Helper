@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">TarkovHelperProject</string>
+
+    <string name="categoryMiscellaneous">Miscellaneous</string>
+    <string name="access">(2) TerraGroup Labs access keycard</string>
+    <string name="usec">(14) USEC Dogtag</string>
+    <string name="useclvl50">(20) Level 50 USEC Dogtag</string>
+    <string name="bear">(7) Bear Dogtag</string>
+    <string name="bearlvl50">(20) Level 50 Bear Dogtag</string>
+    
+    <string name="categoryMedical">Medical</string>
+    <string name="salewa">(3) Salewa first aid kit</string>
+    <string name="meds">(20) Pile of meds</string>
+    <string name="vitam">(10) Bottle of OLOLO Multivitamins</string>
+    <string name="bloodset">(3) Medical bloodset</string>
+    <string name="defibrillat">(6) Portable defibrillator</string>
+    <string name="oscope">(6) Ophthalmoscope</string>
+    <string name="ledx">(6) LEDX Skin Transilluminator</string>
+    <string name="cms">(2) CMS surgical kit</string>
+    <string name="morphine">(8) Morphine injector</string>
+    <string name="meldonin">(1) Meldonin injector</string>
+    <string name="mule">(1) M.U.L.E. stimulant injector</string>
+    <string name="_3btg">(2) 3-(b-TG) stimulant injector</string>
+    <string name="ahf1m">(2) AHF1-M stimulant injector</string>
+    <string name="l1">(1) L1 (Norepinephrine) injector</string>
+    <string name="p22">(1) P22 (Product 22) stimulant injector</string>
+    <string name="obdolbos">(1) "Obdolbos" cocktail injector</string>
+    <string name="sj1">(20) SJ1 TGLabs combat stimulant injector</string>
+    <string name="sj6">(8) SJ6 TGLabs combat stimulant injector</string>
+    <string name="sj9">(2) SJ9 TGLabs combat stimulant injector</string>
+
+
+
+    <string name="categoryElectronics">Electronics</string>
+    <string name="gasan">(7) Gas analyzer</string>
+    <string name="caps">(5) Capacitors</string>
+    <string name="gphone">(7) Broken GPhone smartphone</string>
+    <string name="wires">(5) Bundle of wires</string>
+    <string name="tplug">(4) T-shaped plug</string>
+    <string name="rbattery">(3) Rechargeable battery</string>
+    <string name="ec">(4) Electronic components</string>
+    <string name="gpu">(3) Graphics card</string>
+    <string name="sgc10">(11) Military COFDM Wireless Signal Transmitter</string>
+    <string name="cord">(2) Power cord</string>
+    <string name="vpx">(6) VPX Flash Storage Module</string>
+    <string name="rfidr">(6) UHF RFID Reader</string>
+    <string name="mfd">(4) Military flash drive</string>
+    <string name="virtex">(7) Virtex programmable processor</string>
+    <string name="flashdrive">(5) Secure Flash drive</string>
+    <string name="pcb">(5) Printed circuit board</string>
+    <string name="cpu">(3) PC CPU</string>
+    <string name="cpufan">(8) CPU fan</string>
+
+    <string name="categoryConsumerGoods">Consumer Goods</string>
+    <string name="superwater">(3) Canister with purified water</string>
+    <string name="vodka">(10) Bottle of Tarkovskaya vodka</string>
+    <string name="whiskey">(10) Bottle of Dan Jackiel whiskey</string>
+    <string name="pevko">(20) Bottle of Pevko Light beer</string>
+    <string name="bleach">(2) Ox bleach</string>
+    <string name="clin">(2) Clin window cleaner</string>
+    <string name="iskra">(3) Iskra ration pack</string>
+    <string name="sausage">(1) Salty Dog beef sausage</string>
+    <string name="tushonkasmall">(15) Can of beef stew (Small)</string>
+    <string name="tushonkalarge">(2) Can of beef stew (Large)</string>
+    <string name="emelya">(2) Emelya rye croutons</string>
+    <string name="malboro">(5) Malboro cigarettes</string>
+    <string name="wilston">(5) Wilston cigarettes</string>
+    <string name="strike">(5) Strike cigarettes</string>
+
+
+    <string name="categoryValuable">Valuable</string>
+    <string name="lion">(2) Bronze lion</string>
+    <string name="vase">(2) Antique vase</string>
+    <string name="raven">(3) Raven figurine</string>
+    <string name="teapot">(3) Antique teapot</string>
+    <string name="axel">(2) Axel parrot figurine</string>
+    <string name="horse">(2) Horse figurine</string>
+    <string name="egg">(2) Golden egg</string>
+    <string name="roler">(1) Roler Submariner gold wrist watch</string>
+    <string name="cat">(1) Cat figurine</string>
+
+    <string name="categoryBarter">Barter Items</string>
+    <string name="carbatt">(4) Car battery</string>
+    <string name="propane">(2) Propane tank</string>
+    <string name="fcond">(4) Fuel conditioner</string>
+    <string name="alkali">(2) Alkali cleaner for heat exchangers</string>
+    <string name="hose">(4) Corrugated hose</string>
+    <string name="kek">(5) KEKTAPE duct tape</string>
+    <string name="wd40100ml">(1) WD-40 (100ml)</string>
+    <string name="splug">(8) Spark plug</string>
+
+    <string name="categoryWeapons">Weapons</string>
+    <string name="m4a1standard">(1) Colt M4A1 5.56x45 assault rifle</string>
+    <string name="ak74n">(1) Kalashnikov AK-74N 5.45x39 assault rifle</string>
+    <string name="pm">(2) Makarov PM 9x18PM pistol</string>
+    <string name="a2607">(5) Bars A-2607 95H18 knife</string>
+    <string name="knife">(12) Cultist knife</string>
+    <string name="toz106">(1) TOZ-106 20ga bolt-action shotgun</string>
+
+    <string name="categoryMilitary">Military Items</string>
+    <string name="tankbattery">(1) 6-STEN-140-M military battery</string>
+    <string name="ofz">(5) OFZ 30x160mm shell</string>
+    <string name="_6l31">(3) AK-74 5.45x39 6L31 60-round magazine</string>
+
+    <string name="categoryBossItems">Boss Items</string>
+    <string name="maska1sch">(1) Maska-1SCh bulletproof helmet (Killa)</string>
+    <string name="ttgold">(1) TT-33 7.62x25 TT pistol (golden)</string>
+    <string name="cap">(1) BOSS cap</string>
+    <string name="ssk">(1) Shturman\'s stash key</string>
+
+
+    <string name="categoryGear">Gear</string>
+    <string name="pilgrim">(1) Pilgrim tourist backpack</string>
+    <string name="cowboy">(2) Kinda cowboy hat</string>
+    <string name="ushanka">(2) Ushanka ear flap hat</string>
+    <string name="respirator">(4) Respirator</string>
+    <string name="shmaska">(1) Ski hat with holes for eyes</string>
+    <string name="halfmask">(7) Lower half-mask</string>
+    <string name="blackrock">(2) BlackRock chest rig</string>
+    <string name="tv106">(2) WARTECH TV-106 chest rig</string>
+    <string name="module3m">(1) BNTI Module-3M body armor</string>
+    <string name="paracord">(3) Paracord</string>
+    <string name="aramid">(5) Aramid fiber fabric</string>
+    <string name="fleece">(10) Fleece fabric</string>
+    <string name="cordura">(10) Cordura polyamide fabric</string>
+    <string name="ripstop">(10) Ripstop fabric</string>
+
+    <string name="title_activity_map_labs" />
+    <string name="title_activity_item_screen" />
+    <string name="large_text" />
+    <string name="action_settings" />
+
+
+</resources>

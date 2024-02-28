@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TarkovHelperProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".ItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FactoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InterchangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShorelineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LighthouseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReserveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WoodsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StreetsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapLabs"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_map_labs"
+            android:theme="@style/Theme.TarkovHelperProject.Fullscreen" />
+        <activity
+            android:name=".OldItemScreen"
+            android:exported="false"
+            android:label="@string/title_activity_item_screen"
+            android:theme="@style/Theme.TarkovHelperProject.NoActionBar" />
+        <activity
+            android:name=".MapSelect"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

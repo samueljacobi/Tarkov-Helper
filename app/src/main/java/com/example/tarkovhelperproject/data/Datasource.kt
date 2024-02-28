@@ -1,0 +1,122 @@
+package com.example.tarkovhelperproject.data
+
+import com.example.tarkovhelperproject.R
+import com.example.tarkovhelperproject.model.Items
+
+class Datasource {
+    fun loadItems(): List<Items>{
+        return listOf<Items>(
+
+            //MISCELLANEOUS ITEMS
+            Items(R.string.access, R.drawable.accessicon),
+            Items(R.string.usec, R.drawable.usecicon),
+            Items(R.string.useclvl50, R.drawable.usecicon),
+            Items(R.string.bear, R.drawable.bearicon),
+            Items(R.string.bearlvl50, R.drawable.bearicon),
+            // MEDICAL ITEMS
+            Items(R.string.salewa, R.drawable.salewaicon),
+            Items(R.string.meds, R.drawable.medsicon),
+            Items(R.string.vitam, R.drawable.vitamicon),
+            Items(R.string.bloodset, R.drawable.bloodseticon),
+            Items(R.string.defibrillat, R.drawable.defibrillaticon),
+            Items(R.string.oscope, R.drawable.oscopeicon),
+            Items(R.string.ledx, R.drawable.ledxicon),
+            Items(R.string.cms, R.drawable.cmsicon),
+            Items(R.string.morphine, R.drawable.morphineicon),
+            Items(R.string.meldonin, R.drawable.meldoninicon),
+            Items(R.string.mule, R.drawable.muleicon),
+            Items(R.string._3btg, R.drawable._3btgicon),
+            Items(R.string.ahf1m, R.drawable.ahf1micon),
+            Items(R.string.l1, R.drawable.l1icon),
+            Items(R.string.p22, R.drawable.p22icon),
+            Items(R.string.obdolbos, R.drawable.obdolbosicon),
+            Items(R.string.sj1, R.drawable.sj1icon),
+            Items(R.string.sj6, R.drawable.sj6icon),
+            Items(R.string.sj9, R.drawable.sj9icon),
+            //ELECTRONICS ITEMS
+            Items(R.string.gasan, R.drawable.gasanicon),
+            Items(R.string.caps, R.drawable.capsicon),
+            Items(R.string.gphone, R.drawable.gphoneicon),
+            Items(R.string.wires, R.drawable.wiresicon),
+            Items(R.string.tplug, R.drawable.tplugicon),
+            Items(R.string.rbattery, R.drawable.rbatteryicon),
+            Items(R.string.ec, R.drawable.ecicon),
+            Items(R.string.gpu, R.drawable.gpuicon),
+            Items(R.string.sgc10, R.drawable.sgc10icon),
+            Items(R.string.cord, R.drawable.cordicon),
+            Items(R.string.vpx, R.drawable.vpxicon),
+            Items(R.string.rfidr, R.drawable.rfidricon),
+            Items(R.string.mfd, R.drawable.mfdicon),
+            Items(R.string.virtex, R.drawable.virtexicon),
+            Items(R.string.flashdrive, R.drawable.flashdriveicon),
+            Items(R.string.pcb, R.drawable.pcbicon),
+            Items(R.string.cpu, R.drawable.cpuicon),
+            Items(R.string.cpufan, R.drawable.cpufanicon),
+            //CONSUMER GOODS ITEMS
+            Items(R.string.superwater, R.drawable.superwatericon),
+            Items(R.string.vodka, R.drawable.vodkaicon),
+            Items(R.string.whiskey, R.drawable.whiskeyicon),
+            Items(R.string.pevko, R.drawable.pevkoicon),
+            Items(R.string.bleach, R.drawable.bleachicon),
+            Items(R.string.clin, R.drawable.clinicon),
+            Items(R.string.iskra, R.drawable.iskraicon),
+            Items(R.string.sausage, R.drawable.sausageicon),
+            Items(R.string.tushonkasmall, R.drawable.tushonkasmallicon),
+            Items(R.string.tushonkalarge, R.drawable.tushonkalargeicon),
+            Items(R.string.emelya, R.drawable.emelyaicon),
+            Items(R.string.malboro, R.drawable.malboroicon),
+            Items(R.string.wilston, R.drawable.wilstonicon),
+            Items(R.string.strike, R.drawable.strikeicon),
+            //VALUABLES ITEMS
+            Items(R.string.lion, R.drawable.lionicon),
+            Items(R.string.vase, R.drawable.vaseicon),
+            Items(R.string.raven, R.drawable.ravenicon),
+            Items(R.string.teapot, R.drawable.teapoticon),
+            Items(R.string.axel, R.drawable.axelicon),
+            Items(R.string.horse, R.drawable.horseicon),
+            Items(R.string.egg, R.drawable.eggicon),
+            Items(R.string.roler, R.drawable.rolericon),
+            Items(R.string.cat, R.drawable.caticon),
+            //BARTER ITEMS
+            Items(R.string.carbatt, R.drawable.carbatticon),
+            Items(R.string.propane, R.drawable.propaneicon),
+            Items(R.string.fcond, R.drawable.fcondicon),
+            Items(R.string.alkali, R.drawable.alkaliicon),
+            Items(R.string.hose, R.drawable.hoseicon),
+            Items(R.string.kek, R.drawable.kekicon),
+            Items(R.string.wd40100ml, R.drawable.wd40100mlicon),
+            Items(R.string.splug, R.drawable.splugicon),
+            //WEAPONS
+            Items(R.string.m4a1standard, R.drawable.m4a1standardicon),
+            Items(R.string.ak74n, R.drawable.ak74nicon),
+            Items(R.string.pm, R.drawable.pmicon),
+            Items(R.string.a2607, R.drawable.a2607icon),
+            Items(R.string.knife, R.drawable.knifeicon),
+            Items(R.string.toz106, R.drawable.toz106icon),
+            //MILITARY ITEMS
+            Items(R.string.tankbattery, R.drawable.tankbatteryicon),
+            Items(R.string.ofz, R.drawable.ofzicon),
+            Items(R.string._6l31, R.drawable._6l31icon),
+            //BOSS ITEMS
+            Items(R.string.maska1sch, R.drawable.maska1schicon),
+            Items(R.string.ttgold, R.drawable.ttgoldicon),
+            Items(R.string.cap, R.drawable.capicon),
+            Items(R.string.ssk, R.drawable.sskicon),
+            //GEAR ITEMS
+            Items(R.string.pilgrim, R.drawable.pilgrimicon),
+            Items(R.string.cowboy, R.drawable.cowboyicon),
+            Items(R.string.ushanka, R.drawable.ushankaicon),
+            Items(R.string.respirator, R.drawable.respiratoricon),
+            Items(R.string.shmaska, R.drawable.shmaskaicon),
+            Items(R.string.halfmask, R.drawable.halfmaskicon),
+            Items(R.string.blackrock, R.drawable.blackrockicon),
+            Items(R.string.tv106, R.drawable.tv106icon),
+            Items(R.string.module3m, R.drawable.module3micon),
+            Items(R.string.paracord, R.drawable.paracordicon),
+            Items(R.string.aramid, R.drawable.aramidicon),
+            Items(R.string.fleece, R.drawable.fleeceicon),
+            Items(R.string.cordura, R.drawable.corduraicon),
+            Items(R.string.ripstop, R.drawable.ripstopicon)
+        )
+    }
+}
